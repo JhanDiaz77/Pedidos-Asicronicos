@@ -4,11 +4,11 @@ window.onload = () => {
   container.setAttribute("class", "container");
   app.appendChild(container);
 
-  // Aqui debemos agregar nuestro fetch
 
 
 
-  /** Codigo que debemos usar para mostrar los datos en el frontend
+
+  /* * Codigo que debemos usar para mostrar los datos en el frontend */
     let data = peliculas.data;
 
     data.forEach((movie) => {
@@ -34,5 +34,5 @@ window.onload = () => {
       }
       card.appendChild(duracion);
     });
-  */
+ 
 };
